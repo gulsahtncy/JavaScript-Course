@@ -24,7 +24,8 @@ let job2 = "teacher";
 console.log(myFirstJob);
 */
 
-let javascriptIsFun = true;
+
+/* let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
 // console.log(typeof true);
@@ -47,3 +48,12 @@ console.log(typeof year);
 // NULL TYPE 
 // Caution: object error 
 console.log(typeof null);
+*/
+
+
+// The value of age changes.
+let age = 30;
+age = 31;
+
+// The value of the birthday year cannot be changes.
+const birthYear = 1991;
