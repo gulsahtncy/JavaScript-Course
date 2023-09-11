@@ -1,4 +1,4 @@
-// LECTURE: Values and Variables 
+// LECTURE: Values and Variables
 
 let country = "Turkey";
 let continent = "Asia and Europe";
@@ -15,3 +15,10 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+// LECTURE: let, const and var
+language = "Turkish";
+const country = "Turkey";
+const continent = "Asia and Europe";
+const isIsland = false;
+// isIsland = true;  ERROR not be changed
