@@ -17,7 +17,7 @@ console.log(typeof language);
 
 // LECTURE: let, const and var
 language = "Turkish";
-const country = "Turkey";
-const continent = "Asia and Europe";
-const isIsland = false;
+const countryy = "Turkey";
+const continentt = "Asia and Europe";
+const isIslandd = false;
 // isIsland = true;  ERROR not be changed
