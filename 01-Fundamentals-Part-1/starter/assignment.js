@@ -41,3 +41,13 @@ console.log(description1);
 // LECTURE: Strings and Template Literals
 const description = `${country} is in ${continent}, and its
 ${population} million people speak ${language}`;
+
+// LECTURE: Taking Decisions: if / else Statements
+if (population > 33) {
+  console.log(`${country}'s population is above average`);
+} else {
+  console.log(
+    `${country}'s population is ${33 - population} million
+  below average`
+  );
+}
