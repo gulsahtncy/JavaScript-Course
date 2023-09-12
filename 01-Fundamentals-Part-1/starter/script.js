@@ -70,12 +70,12 @@ const lastName = "Schmedtmann";
 console.log(firstName + " " + lastName);
 
 // Assignment operators
-let x = 10 + 5; // 15
+/*let x = 10 + 5; // 15
 x += 10; // x = x + 10 = 25
 x *= 4; // x = x * 4 = 100
 x++; // x = x + 1
 x--; // x = x - 1
-console.log(x);
+console.log(x);*/
 
 // Comparison operators
 console.log(ageJonas > ageSarah); // >, <, >=, <=
