@@ -119,7 +119,7 @@ console.log(`String
 multiple
 lines`); */
 
-const age = 19;
+/*const age = 19;
 const isOldEnough = age >= 18;
 
 if (isOldEnough) {
@@ -136,4 +136,42 @@ if (birthYear <= 2000) {
 } else {
   century = 21;
 }
-console.log(century);
+console.log(century);*/
+
+// TYPE CONVERSION
+/*const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(inputYear + 18); // string
+console.log(Number(inputYear) + 18); // number
+
+console.log(Number("Jonas"));
+console.log(typeof NaN);
+
+console.log(String(23), 23); // different color numbers, string and number
+
+//TYPE COERCION
+console.log("I am " + 23 + " years old"); //I am 23 years old
+console.log("I am " + "23" + " years old");
+
+console.log("23" - "10" - 3); //10 */
+
+// Boolean
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 0;
+if (money) {
+  console.log("Don't spend it all :)");
+} else {
+  console.log("You should get a job!");
+}
+
+let height = 0;
+if (height) {
+  console.log("YAY! Height is defined");
+} else {
+  console.log("Height is UNDEFINED"); // not true
+} 
