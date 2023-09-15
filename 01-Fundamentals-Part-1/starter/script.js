@@ -219,7 +219,7 @@ if (hasDricersLicence && hasGoodVision && !isTired) {
   console.log("Someone else should drive...");
 }*/
 
-const day = "monday";
+/*const day = "monday";
 
 switch (day) {
   case "monday": // day === "monday"
@@ -275,4 +275,4 @@ if (age >= 18) {
 }
 console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);*/
