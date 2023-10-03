@@ -146,16 +146,16 @@ const ages = [
 console.log(ages);*/
 
 // Add elements
-const friends = ["Michael", "Steven", "Peter"];
+/*const friends = ["Michael", "Steven", "Peter"];
 const newLength = friends.push("Jay");
 console.log(friends);
 console.log(newLength);
 
 friends.unshift("John");
-console.log(friends);
+console.log(friends);*/
 
 // Remove elements
-friends.pop(); // Last
+/*friends.pop(); // Last
 const popped = friends.pop();
 console.log(popped);
 console.log(friends);
@@ -173,4 +173,22 @@ console.log(friends.includes(23)); // true
 
 if (friends.includes("Steven")) {
   console.log("You have a friend called Steven");
-}
+}*/
+
+// Introduction to Objects
+const jonasArray = [
+  'Jonas',
+  'Schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Michael', 'Peter', 'Steven']
+];
+
+const jonas = {
+  firstName: 'Jonas',
+  lastName: 'Schmedtmann',
+  age: 2037 - 1991,
+  job: 'teacher',
+  friends: ['Michael', 'Peter', 'Steven']
+};
+
