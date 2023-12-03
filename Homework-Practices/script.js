@@ -153,13 +153,13 @@ describePopulation("China", 1441);
 describePopulation("USA", 332);
 
 // LECTURE: Introduction to Arrays
-const populations = [10, 1441, 332, 83];
-console.log(populations.length === 4);
+const populationss = [10, 1441, 332, 83];
+console.log(populationss.length === 4);
 const percentages = [
-  percentageOfWorld1(populations[0]),
-  percentageOfWorld1(populations[1]),
-  percentageOfWorld1(populations[2]),
-  percentageOfWorld1(populations[3]),
+  percentageOfWorld1(populationss[0]),
+  percentageOfWorld1(populationss[1]),
+  percentageOfWorld1(populationss[2]),
+  percentageOfWorld1(populationss[3]),
 ];
 console.log(percentages);
 
@@ -240,10 +240,17 @@ const listOfNeighbours = [
   ["Spain"],
   ["Norway", "Sweden", "Russia"],
 ];
-for (let i = 0; i < listOfNeighbours.length; i++)
-  for (let y = 0; y < listOfNeighbours[i].length; y++)
-    console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
 
+for(let i = 0; i < listOfNeighbours.length; i++) {
+  const komsular = listOfNeighbours[i];
+  console.log(komsular);
+  // for(let y = 0; y < listOfNeighbours[i].length; y++){
+  //   console.log();
+  // }
+ 
+}
+
+console.log();
 // LECTURE: The while Loop
 const percentages3 = [];
 let i = 0;
